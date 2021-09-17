@@ -1,0 +1,31 @@
+{
+  "name": "parcel-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /Parcel-homework/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monerk98/Parcel-homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Monerk98/Parcel-homework/issues"
+  },
+  "homepage": "https://Monerk98.github.io/Parcel-homework",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "normalize": "^0.3.1",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
